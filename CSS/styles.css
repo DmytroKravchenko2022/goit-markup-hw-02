@@ -1,0 +1,296 @@
+:root {
+    --color-primary: #2F303A;
+    --color-secondary: #F5F5F5;
+    --color-brand: #2196F3;
+    --txtcolor-primary: #212121;
+    --txtcolor-secondary: #757575;
+}
+ul {
+    list-style: none;
+}
+/*body*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/*header*/
+header {
+    background-color: #FFFFFF;
+}
+.web-logo {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 0.8;
+    letter-spacing: 0.03em;
+    color: var(--color-brand);
+}
+.studio-logo {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 0.8;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.site-nav a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.875;
+    letter-spacing: 0.02em;
+    color: var(--txtcolor-primary);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--color-brand);
+}
+.site.nav .link:active {
+    color: var(--color-brand)
+}
+.contact a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.875;
+    letter-spacing: 0.02em;
+    color: var(--txtcolor-secondary)
+}
+.contact a:hover,
+.contact a:focus {
+    color: var(--color-brand)
+}
+/*main*/
+/*title section*/
+.title {
+    background-color: var(--color-primary);
+}
+.title h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 0.73;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.btn-requestservice {
+    background: var(--color-brand);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+.btn-requestservice:hover,
+.btn-requestservice:focus {
+    color: var(--color-brand)
+}
+/*section under title*/
+.under-title h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 0.875;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--txtcolor-primary);
+}
+.under-title p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0.875;
+    letter-spacing: 0.03em;
+    color: var(--txtcolor-secondary);
+}
+.whatwe-do h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 0.85;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--txtcolor-primary);
+}
+/*our team section*/
+.team {
+    background-color: #F5F4FA;
+}
+.people {
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.team h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 0.86;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--txtcolor-primary);
+}
+.people h3 {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 0.84;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--txtcolor-primary);
+}
+.people p {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 0.84;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--txtcolor-secondary);
+}
+/*footer*/
+footer {
+    background-color: var(--color-primary);
+}
+address p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0.58;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+/*studio page - done*/
+/*next up - portfolio*/
+body {
+    background-color: var(--color-secondary);
+}
+/*section buttons*/
+.btn-all {
+    background: #F5F4FA;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--txtcolor-primary);
+}
+.btn-all:hover,
+.btn-all:focus {
+    color: var(--color-brand);
+}
+.btn-webs {
+    background: #F5F4FA;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--txtcolor-primary);
+}
+.btn-webs:hover,
+.btn-webs:focus {
+    color: var(--color-brand);
+}
+.btn-extras {
+    background: #F5F4FA;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--txtcolor-primary);
+}
+.btn-extras:hover,
+.btn-extras:focus {
+    color: var(--color-brand);
+}
+.btn-design {
+    background: #F5F4FA;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--txtcolor-primary);
+}
+.btn-design:hover,
+.btn-design:focus {
+    color: var(--color-brand);
+}
+.btn-marketing {
+    background: #F5F4FA;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--txtcolor-primary);
+}
+.btn-marketing:hover,
+.btn-marketing:focus {
+    color: var(--color-brand);
+}
+/*pictures section*/
+.boxes {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+.boxes h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 0.5;
+    letter-spacing: 0.06em;
+    color: var(--txtcolor-primary);
+}
+.boxes p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--txtcolor-secondary);
+}
