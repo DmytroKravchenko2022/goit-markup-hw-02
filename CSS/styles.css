@@ -19,121 +19,96 @@ header {
 .web-logo {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 700;
     font-size: 26px;
-    line-height: 0.8;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--color-brand);
 }
-.studio-logo {
+.studiologo-header {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 700;
     font-size: 26px;
-    line-height: 0.8;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #000000;
 }
-.site-nav a {
+.link-nav {
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 0.875;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--txtcolor-primary);
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+.link-nav:hover,
+.link-nav:focus {
     color: var(--color-brand);
 }
-.site.nav .link:active {
-    color: var(--color-brand)
-}
-.contact a {
+.link-contact {
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 0.875;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--txtcolor-secondary)
 }
-.contact a:hover,
-.contact a:focus {
+.link-contact:hover,
+.link-contact:focus {
     color: var(--color-brand)
 }
 /*main*/
 /*title section*/
-.title {
+.section-title {
     background-color: var(--color-primary);
 }
-.title h1 {
-    font-family: 'Roboto';
-    font-style: normal;
+.main-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 0.73;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
 }
 .btn-requestservice {
-    background: var(--color-brand);
+    background-color: var(--color-brand);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    line-height: 1.86;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+    cursor: pointer;
 }
 .btn-requestservice:hover,
 .btn-requestservice:focus {
-    color: var(--color-brand)
+    background-color: #188CE8;
 }
 /*section under title*/
-.under-title h2 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
+.benefits {
     font-size: 14px;
-    line-height: 0.875;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--txtcolor-primary);
 }
-.under-title p {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+.benefits-description {
     font-size: 14px;
-    line-height: 0.875;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--txtcolor-secondary);
 }
-.whatwe-do h2 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
+.title-whatwe-do {
     font-size: 36px;
-    line-height: 0.85;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--txtcolor-primary);
 }
 /*our team section*/
-.team {
+.section-team {
     background-color: #F5F4FA;
 }
 .people {
@@ -141,134 +116,141 @@ header {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
-.team h2 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
+.section-team {
     font-size: 36px;
-    line-height: 0.86;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--txtcolor-primary);
 }
-.people h3 {
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 0.84;
-        text-align: center;
-        letter-spacing: 0.03em;
-        color: var(--txtcolor-primary);
+.people-names {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--txtcolor-primary);
 }
-.people p {
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 0.84;
-        text-align: center;
-        letter-spacing: 0.03em;
-        color: var(--txtcolor-secondary);
+.professions {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--txtcolor-secondary);
 }
 /*footer*/
 footer {
     background-color: var(--color-primary);
 }
-address p {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 0.58;
+.studiologo-footer {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
-/*studio page - done*/
-/*next up - portfolio*/
-body {
-    background-color: var(--color-secondary);
+.adress-line {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
+.link-contact-footer {
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--txtcolor-secondary);
+}
+/*studio page - done*/
 /*section buttons*/
 .btn-all {
-    background: #F5F4FA;
+    background-color: #F5F4FA;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 0.6;
-    text-align: center;
+    line-height: 1.6;
     letter-spacing: 0.03em;
-    color: var(--txtcolor-primary);
+    color: #212121;
+    cursor: pointer;
 }
 .btn-all:hover,
 .btn-all:focus {
-    color: var(--color-brand);
+    background-color: var(--color-brand);
+    color: #FFFFFF;
 }
 .btn-webs {
-    background: #F5F4FA;
+    background-color: #F5F4FA;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 0.6;
-    text-align: center;
+    line-height: 1.6;
     letter-spacing: 0.03em;
-    color: var(--txtcolor-primary);
+    color: #212121;
+    cursor: pointer;
 }
 .btn-webs:hover,
 .btn-webs:focus {
-    color: var(--color-brand);
+    background-color: var(--color-brand);
+    color: #FFFFFF;
 }
 .btn-extras {
-    background: #F5F4FA;
+    background-color: #F5F4FA;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 0.6;
-    text-align: center;
+    line-height: 1.6;
     letter-spacing: 0.03em;
-    color: var(--txtcolor-primary);
+    color: #212121;
+    cursor: pointer;
 }
 .btn-extras:hover,
 .btn-extras:focus {
-    color: var(--color-brand);
+    background-color: var(--color-brand);
+    color: #FFFFFF;
 }
 .btn-design {
-    background: #F5F4FA;
+    background-color: #F5F4FA;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 0.6;
-    text-align: center;
+    line-height: 1.6;
     letter-spacing: 0.03em;
-    color: var(--txtcolor-primary);
+    color: #212121;
+    cursor: pointer;
 }
 .btn-design:hover,
 .btn-design:focus {
-    color: var(--color-brand);
+    background-color: var(--color-brand);
+    color: #FFFFFF;
 }
 .btn-marketing {
-    background: #F5F4FA;
+    background-color: #F5F4FA;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 0.6;
-    text-align: center;
+    line-height: 1.6;
     letter-spacing: 0.03em;
-    color: var(--txtcolor-primary);
+    color: #212121;
+    cursor: pointer;
 }
 .btn-marketing:hover,
 .btn-marketing:focus {
-    color: var(--color-brand);
+    background-color: var(--color-brand);
+    color: #FFFFFF;
 }
 /*pictures section*/
 .boxes {
@@ -276,21 +258,15 @@ body {
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
 }
-.boxes h1 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
+.project-name {
     font-size: 18px;
-    line-height: 0.5;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: var(--txtcolor-primary);
 }
-.boxes p {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+.project-type {
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.86;
     letter-spacing: 0.03em;
     color: var(--txtcolor-secondary);
 }
