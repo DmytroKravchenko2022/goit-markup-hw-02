@@ -1,0 +1,310 @@
+:root {
+    --color-primary: #2F303A;
+    --color-secondary: #F5F5F5;
+    --color-brand: #2196F3;
+    --txtcolor-primary: #212121;
+    --txtcolor-secondary: #757575;
+}
+
+ul {
+    list-style: none;
+}
+
+/*body*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*header*/
+header {
+    background-color: #FFFFFF;
+}
+
+.web-logo {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--color-brand);
+}
+
+.studiologo-header {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.link-nav {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--txtcolor-primary);
+}
+
+.link-nav:hover,
+.link-nav:focus {
+    color: var(--color-brand);
+}
+
+.link-contact {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--txtcolor-secondary)
+}
+
+.link-contact:hover,
+.link-contact:focus {
+    color: var(--color-brand)
+}
+
+/*main*/
+/*title section*/
+.section-title {
+    background-color: var(--color-primary);
+}
+
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.btn-requestservice {
+    background-color: var(--color-brand);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.86;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.btn-requestservice:hover,
+.btn-requestservice:focus {
+    background-color: #188CE8;
+}
+
+/*section under title*/
+.benefits {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--txtcolor-primary);
+}
+
+.benefits-description {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--txtcolor-secondary);
+}
+
+.title-whatwe-do {
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--txtcolor-primary);
+}
+
+/*our team section*/
+.section-team {
+    background-color: #F5F4FA;
+}
+
+.people {
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.section-team {
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--txtcolor-primary);
+}
+
+.people-names {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--txtcolor-primary);
+}
+
+.professions {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--txtcolor-secondary);
+}
+
+/*footer*/
+footer {
+    background-color: var(--color-primary);
+}
+
+.studiologo-footer {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.adress-line {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.link-contact-footer {
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--txtcolor-secondary);
+}
+
+/*studio page - done*/
+/*section buttons*/
+.btn-all {
+    background-color: #F5F4FA;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    color: #212121;
+    cursor: pointer;
+}
+
+.btn-all:hover,
+.btn-all:focus {
+    background-color: var(--color-brand);
+    color: #FFFFFF;
+}
+
+.btn-webs {
+    background-color: #F5F4FA;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    color: #212121;
+    cursor: pointer;
+}
+
+.btn-webs:hover,
+.btn-webs:focus {
+    background-color: var(--color-brand);
+    color: #FFFFFF;
+}
+
+.btn-extras {
+    background-color: #F5F4FA;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    color: #212121;
+    cursor: pointer;
+}
+
+.btn-extras:hover,
+.btn-extras:focus {
+    background-color: var(--color-brand);
+    color: #FFFFFF;
+}
+
+.btn-design {
+    background-color: #F5F4FA;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    color: #212121;
+    cursor: pointer;
+}
+
+.btn-design:hover,
+.btn-design:focus {
+    background-color: var(--color-brand);
+    color: #FFFFFF;
+}
+
+.btn-marketing {
+    background-color: #F5F4FA;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    color: #212121;
+    cursor: pointer;
+}
+
+.btn-marketing:hover,
+.btn-marketing:focus {
+    background-color: var(--color-brand);
+    color: #FFFFFF;
+}
+
+/*pictures section*/
+.boxes {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
+.project-name {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--txtcolor-primary);
+}
+
+.project-type {
+    font-size: 16px;
+    line-height: 1.86;
+    letter-spacing: 0.03em;
+    color: var(--txtcolor-secondary);
+}
