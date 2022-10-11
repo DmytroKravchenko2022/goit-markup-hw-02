@@ -48,7 +48,8 @@ header {
 }
 
 .link-nav:hover,
-.link-nav:focus {
+.link-nav:focus,
+.link-nav--current {
     color: var(--color-brand);
 }
 
@@ -76,10 +77,12 @@ header {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    text-align: center;
     color: #FFFFFF;
+    max-width: 696px;
+    max-height: 120px;
 }
 
 .btn-requestservice {
@@ -99,6 +102,8 @@ header {
 .btn-requestservice:focus {
     background-color: #188CE8;
 }
+
+
 
 /*section under title*/
 .benefits {
